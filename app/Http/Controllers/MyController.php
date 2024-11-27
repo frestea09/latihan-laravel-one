@@ -18,6 +18,6 @@ class MyController extends Controller
     }
     public function getRequestSayHello(Request $request){
         $temp =$request->input("name");
-        return "hello $temp";
+        return "hello$temp";
     }
 }
